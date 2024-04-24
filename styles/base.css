@@ -1,4 +1,4 @@
-/* base.css */
+/* base.css new1*/
 
 /* Font Family */
 body {
@@ -7,12 +7,12 @@ body {
 
 /* Color Scheme */
 body {
-  background-color: #f0f0f0;
+  background-color: #fafafa; /* Light gray background */
   color: #333;
 }
 
 header {
-  background-color: #004d40;
+  background-color: #1e88e5; /* Dark blue */
   color: #fff;
   padding: 20px;
   text-align: center;
@@ -21,6 +21,7 @@ header {
 nav ul {
   list-style-type: none;
   padding: 0;
+  text-align: center; /* Center align the navigation links */
 }
 
 nav ul li {
@@ -33,18 +34,21 @@ nav ul li:last-child {
 }
 
 nav ul li a {
-  color: #004d40;
+  color: #1e88e5; /* Dark blue */
   text-decoration: none;
   font-weight: bold;
 }
 
 nav ul li a:hover {
-  color: #00796b;
+  color: #ff5722; /* Orange on hover */
 }
 
 main {
   width: 80%;
   margin: 0 auto;
+  display: grid; /* Use CSS Grid for layout */
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive grid with minimum width of 300px */
+  gap: 20px; /* Gap between grid items */
 }
 
 .card {
@@ -52,11 +56,10 @@ main {
   border: 1px solid #ddd;
   border-radius: 5px;
   padding: 20px;
-  margin-bottom: 20px;
 }
 
 footer {
-  background-color: #004d40;
+  background-color: #1e88e5; /* Dark blue */
   color: #fff;
   padding: 20px;
   text-align: center;
