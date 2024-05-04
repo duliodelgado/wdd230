@@ -1,5 +1,5 @@
 /* Font Family */
-body {
+body, header, nav ul li a {
   font-family: 'Roboto', sans-serif;
 }
 
@@ -9,7 +9,7 @@ body {
   color: #333;
 }
 
-header {
+header, nav ul {
   background-color: #1e88e5; /* Dark blue */
   color: #fff;
   padding: 20px;
@@ -19,7 +19,6 @@ header {
 nav ul {
   list-style-type: none;
   padding: 0;
-  text-align: center; /* Center align the navigation links */
 }
 
 nav ul li {
@@ -32,7 +31,7 @@ nav ul li:last-child {
 }
 
 nav ul li a {
-  color: #1e88e5; /* Dark blue */
+  color: inherit; /* Inherit color from parent (header) */
   text-decoration: none;
   font-weight: bold;
 }
@@ -59,8 +58,8 @@ main {
 
 /* Footer */
 footer {
-  background-color: #1e88e5; /* Dark blue */
-  color: #fff;
+  background-color: inherit; /* Inherit background color from header */
+  color: inherit; /* Inherit color from header */
   padding: 20px;
   text-align: center;
 }
@@ -73,9 +72,6 @@ footer {
 
 .footer-row {
   margin: 10px 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .footer-row p {
@@ -90,4 +86,13 @@ footer {
 /* Adjust image width */
 header img {
   width: 20%;
+}
+.header-content {
+  display: flex;
+  align-items: center;
+}
+
+.profile-image {
+  width: 100px; /* Adjust the width as needed */
+  margin-right: 20px; /* Adjust the spacing between the image and the name */
 }

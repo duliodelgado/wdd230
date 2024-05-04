@@ -6,7 +6,7 @@
     <title>Dulio Delgado - WDD 230 - Web Frontend Development</title>
     <meta name="description" content="WDD 230 - Dulio Delgado - Web Frontend Development course assignment portal. Explore learning activities, information, and more.">
     <meta name="author" content="Dulio R. Delgado">
-    <link rel="stylesheet" href="styles/base.css"> <!-- Link to the CSS file -->
+    <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="icon" href="favicon.ico">
     <meta property="og:title" content="My Home Town Portal">
@@ -16,8 +16,8 @@
 </head>
 <body>
     <header>
-        <div>
-            <img src="https://github.com/duliodelgado/wdd230/blob/main/profile.JPG?raw=true" alt="Profile Image">
+        <div class="header-content">
+            <img src="https://github.com/duliodelgado/wdd230/blob/main/profile.JPG?raw=true" alt="Profile Image" class="profile-image">
             <h1>Dulio Delgado</h1>
         </div>
     </header>
@@ -45,22 +45,17 @@
     </main>
     <footer>
         <div class="footer-content">
-    
             <div class="footer-row">
                 <p>&copy; <span id="currentYear"></span></p>
-            </div>
-            <div class="footer-row">
                 <p>Dulio R. Delgado</p>
             </div>
             <div class="footer-row">
                 <p>Peru <img src="Peru-Flag-icon.png" alt="Peru Flag"></p>
-            </div>
-            <div class="footer-row">
                 <p id="lastModified"></p>
             </div>
         </div>
     </footer>
 
-    <script src="scripts/getdates.js"></script>  <!-- Reference the JavaScript file -->
+    <script src="scripts/getdates.js"></script>
 </body>
 </html>
