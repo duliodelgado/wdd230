@@ -19,10 +19,13 @@ h1 {
 }
 
 main {
-	display: grid;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px; /* Adjust gap as needed */
 }
 
 main h2 {
+    grid-column: span 2; /* Span across two columns */
     text-align: left;
 }
 h2 {    
@@ -35,13 +38,13 @@ article p {
 
 .callout {
     padding: 1rem;
-	color: #d9cafe;
+	color: #fefcdd;
 	background-color: #702963;
 }
 
 footer {
+    text-align: left;
 	margin-top: 1rem;
 	border-top: 1px solid rgba(0, 0, 0, 0.1);
 	font-size: smaller;
-	text-align: right;
 }
