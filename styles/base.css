@@ -1,5 +1,3 @@
-/* base.css new1*/
-
 /* Font Family */
 body {
   font-family: 'Roboto', sans-serif;
@@ -16,6 +14,14 @@ header {
   color: #fff;
   padding: 20px;
   text-align: center;
+  display: flex; /* Add display flex to make items side by side */
+  justify-content: center; /* Center items horizontally */
+  align-items: center; /* Center items vertically */
+}
+
+header img {
+  width: 20%;
+  margin-right: 10px; /* Add margin to separate image and name */
 }
 
 nav ul {
@@ -62,9 +68,10 @@ main {
 footer {
   background-color: #1e88e5; /* Dark blue */
   color: #fff;
-  padding: 20px;
+  padding: 10px; /* Reduce padding for footer */
   text-align: center;
 }
+
 /* Adjust image width */
 header img {
   width: 20%;
