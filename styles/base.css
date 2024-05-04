@@ -62,7 +62,7 @@ main {
 /* Footer */
 footer {
   background-color: #1e88e5; /* Inherit background color from header */
-  color: #1e88e5; /* Inherit color from header */
+  color: #f7fafc; /* Inherit color from header */
   padding: 20px;
   text-align: center;
 }
