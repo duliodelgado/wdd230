@@ -73,6 +73,9 @@ footer {
 
 .footer-row {
   margin: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .footer-row p {
@@ -81,8 +84,8 @@ footer {
 
 .footer-row img {
   width: 20px; /* Adjust the width as needed */
+  margin-left: 5px; /* Adjust the spacing between text and flag */
 }
-
 
 /* Adjust image width */
 header img {
