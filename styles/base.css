@@ -59,9 +59,9 @@ main {
 
 /* Footer */
 footer {
-  background-color: #1e88e5; /* Dark blue */
+  background-color: #333;
   color: #fff;
-  padding: 20px; /* Reduce padding for footer */
+  padding: 20px;
   text-align: center;
 }
 
@@ -73,6 +73,7 @@ footer {
 
 .footer-left {
   flex: 1;
+  text-align: left;
 }
 
 .footer-right {
@@ -81,7 +82,7 @@ footer {
 }
 
 .footer-right img {
-  width: 100px; /* Adjust the width as needed */
+  width: 20px; /* Adjust the width as needed */
 }
 
 /* Adjust image width */
