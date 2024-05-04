@@ -67,17 +67,22 @@ footer {
 
 .footer-content {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
   align-items: center;
 }
 
-.footer-left img {
+.footer-row {
+  margin: 10px 0;
+}
+
+.footer-row p {
+  margin: 0;
+}
+
+.footer-row img {
   width: 20px; /* Adjust the width as needed */
 }
 
-.footer-right {
-  text-align: right;
-}
 
 /* Adjust image width */
 header img {
