@@ -22,9 +22,11 @@ main {
 	display: grid;
 }
 
-h2 {
+main h2 {
+    text-align: left;
+}
+h2 {    
 	color: navy;
-	text-align: left;
 }
 
 article p {
@@ -33,7 +35,7 @@ article p {
 
 .callout {
     padding: 1rem;
-	color: #777;
+	color: #d9cafe;
 	background-color: #702963;
 }
 
