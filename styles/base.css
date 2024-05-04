@@ -8,6 +8,9 @@ body {
   background-color: #fafafa; /* Light gray background */
   color: #333;
 }
+h2 {
+  text-align: center;
+}
 
 header, nav ul {
   background-color: #1e88e5; /* Dark blue */
@@ -89,6 +92,8 @@ header {
   color: #fff;
   padding: 20px;
   text-align: center;
+  display: flex; /* Set header to flex container */
+  justify-content: center; /* Center items horizontally */
 }
 
 .header-content {
@@ -96,6 +101,10 @@ header {
   grid-template-columns: auto 1fr; /* Auto for the image width, 1fr for the remaining space */
   align-items: center; /* Center vertically */
   justify-content: center; /* Center horizontally */
+}
+header img {
+  width: 20%;
+  margin-right: 10px; /* Add some spacing between the image and the name */
 }
 
 .profile-image {
