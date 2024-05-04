@@ -84,15 +84,21 @@ footer {
 }
 
 /* Adjust image width */
-header img {
-  width: 20%;
+header {
+  background-color: #1e88e5;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
 }
+
 .header-content {
-  display: flex;
-  align-items: center;
+  display: grid;
+  grid-template-columns: auto 1fr; /* Auto for the image width, 1fr for the remaining space */
+  align-items: center; /* Center vertically */
+  justify-content: center; /* Center horizontally */
 }
 
 .profile-image {
-  width: 100px; /* Adjust the width as needed */
-  margin-right: 20px; /* Adjust the spacing between the image and the name */
+  width: 100px;
+  margin-right: 20px;
 }
