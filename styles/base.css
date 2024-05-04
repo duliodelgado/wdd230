@@ -14,6 +14,9 @@ header {
   color: #fff;
   padding: 20px;
   text-align: center;
+}
+
+header div {
   display: flex; /* Add display flex to make items side by side */
   justify-content: center; /* Center items horizontally */
   align-items: center; /* Center items vertically */
