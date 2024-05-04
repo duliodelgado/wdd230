@@ -16,17 +16,6 @@ header {
   text-align: center;
 }
 
-header div {
-  display: flex; /* Add display flex to make items side by side */
-  justify-content: center; /* Center items horizontally */
-  align-items: center; /* Center items vertically */
-}
-
-header img {
-  width: 20%;
-  margin-right: 10px; /* Add margin to separate image and name */
-}
-
 nav ul {
   list-style-type: none;
   padding: 0;
