@@ -61,7 +61,7 @@ main {
 
 /* Footer */
 footer {
-  background-color: inherit; /* Inherit background color from header */
+  background-color: #1e88e5; /* Inherit background color from header */
   color: inherit; /* Inherit color from header */
   padding: 20px;
   text-align: center;
