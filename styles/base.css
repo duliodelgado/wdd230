@@ -68,11 +68,31 @@ main {
   text-align: center;
 }
 
+/* Footer */
 footer {
   background-color: #1e88e5; /* Dark blue */
   color: #fff;
-  padding: 10px; /* Reduce padding for footer */
+  padding: 20px; /* Reduce padding for footer */
   text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-left {
+  flex: 1;
+}
+
+.footer-right {
+  flex: 1;
+  text-align: right;
+}
+
+.footer-right img {
+  width: 100px; /* Adjust the width as needed */
 }
 
 /* Adjust image width */
