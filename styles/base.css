@@ -63,8 +63,10 @@ main {
 }
 .background-color {
   background-color: #1e88e5; /* Your desired background color */;
+  color: #fff;
   padding: 5px 10px; /* Adjust padding as needed */
   border-radius: 5px; /* Optional: Add border-radius for rounded corners */
+  width: 100%; /* Extend background color from left to right */
 }
 /* Footer */
 footer {
