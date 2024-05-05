@@ -59,6 +59,7 @@ main {
   border-radius: 5px;
   padding: 20px;
   text-align: center;
+  margin-bottom: 20px; /* Add margin-bottom to create space between sections */
 }
 
 /* Footer */
