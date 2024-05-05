@@ -111,3 +111,20 @@ header img {
   width: 100px;
   margin-right: 20px;
 }
+.lesson {
+  margin-bottom: 20px;
+}
+
+.lesson h4 {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.lesson ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.lesson li {
+  margin-bottom: 5px;
+}
