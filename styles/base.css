@@ -111,15 +111,17 @@ header img {
   width: 100px;
   margin-right: 20px;
 }
+
 .lesson {
-  display: inline-block;
-  margin-right: 30px;
+  display: flex;
+  margin-bottom: 10px;
+}
+.lesson h4 {
+  margin-right: 10px;
 }
 
-
-.lesson h4 {
-  margin-bottom: 10px;
-  font-weight: bold;
+.lesson p {
+  margin: 0;
 }
 
 .lesson ul {
@@ -130,3 +132,8 @@ header img {
 .lesson li {
   margin-bottom: 5px;
 }
+
+.lesson:nth-child(odd) {
+  margin-right: 20px; /* Add spacing between lessons on the same line */
+}
+
