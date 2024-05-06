@@ -8,29 +8,25 @@ body {
   background-color: #fafafa; /* Light gray background */
   color: #333;
 }
+
 h2 {
   text-align: center;
 }
 
-header, nav ul {
-  background-color: #1e88e5; /* Dark blue */
+/* Header */
+
+title, nav ul {
+  background-color: #0b589b; /* Dark blue */
   color: #fff;
-  padding: 20px;
+  padding: auto;
   text-align: center;
+  margin-bottom: 10px;
+  margin-top: 0;
 }
 
-nav ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-nav ul li {
+li {
   display: inline;
   margin-right: 20px;
-}
-
-nav ul li:last-child {
-  margin-right: 0;
 }
 
 nav ul li a {
@@ -38,13 +34,12 @@ nav ul li a {
   text-decoration: none;
   font-weight: bold;
 }
-li {
-  display: inline;
-}
+
 nav ul li a:hover {
   color: #ff5722; /* Orange on hover */
 }
 
+/* Main Content */
 main {
   width: 80%;
   margin: 0 auto;
@@ -53,24 +48,28 @@ main {
   gap: 20px; /* Gap between grid items */
 }
 
+/* Cards */
 .card {
-  background-color: #fff;
+  background-color: #ffffff;
   border: 2px solid #999797;
   border-radius: 5px;
-  padding: 20px;
   text-align: center;
-  margin-bottom: 20px; /* Add margin-bottom to create space between sections */
+  margin-bottom: 10px; /* Add margin-bottom to create space between sections */
+  margin-top: auto; /* Center vertically */
 }
-.background-color {
-  background-color: #1e88e5; /* Your desired background color */;
+
+/* Information Title */
+.informationtitle {
+  background-color: #0b589b;
   color: #fff;
-  padding: 5px 10px; /* Adjust padding as needed */
-  border-radius: 5px; /* Optional: Add border-radius for rounded corners */
-  width: 100%; /* Extend background color from left to right */
+  margin-top: auto; /* Center vertically */
+  padding: 10px 0; /* Add padding for better spacing */
+  text-align: center;
 }
+
 /* Footer */
 footer {
-  background-color: #1e88e5; /* Inherit background color from header */
+  background-color: #0b589b; /* Inherit background color from header */
   color: white; /* Change text color to white */
   padding: 20px;
   text-align: center;
@@ -95,11 +94,11 @@ footer {
   margin-left: 5px; /* Adjust the spacing between text and flag */
 }
 
-/* Adjust image width */
+/* Header Content */
 header {
-  background-color: #1e88e5;
+  background-color: #0b589b;
   color: #fff;
-  padding: 20px;
+  padding: 10px;
   text-align: center;
   display: flex; /* Set header to flex container */
   justify-content: center; /* Center items horizontally */
@@ -111,9 +110,20 @@ header {
   align-items: center; /* Center vertically */
   justify-content: center; /* Center horizontally */
 }
+
+/* Horizontal Rule */
+.title hr {
+  width: 40%; /* Make the line span the full width */
+  border-bottom: 1px solid #0b589b; /* Add a 2px solid blue border at the bottom */
+  margin-bottom: 20px;
+  margin-top: 5px;
+}
+
+/* Profile Image */
 header img {
-  width: 20%;
+  width: 25%;
   margin-right: 10px; /* Add some spacing between the image and the name */
+  margin-bottom: 5px;
 }
 
 .profile-image {
@@ -121,10 +131,12 @@ header img {
   margin-right: 20px;
 }
 
+/* Lessons */
 .lesson {
   display: flex;
-  margin-bottom: 10px;
+  padding: 10px;
 }
+
 .lesson h4 {
   margin-right: 10px;
 }
@@ -145,4 +157,3 @@ header img {
 .lesson:nth-child(odd) {
   margin-right: 20px; /* Add spacing between lessons on the same line */
 }
-
