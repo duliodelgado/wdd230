@@ -24,14 +24,15 @@
     margin: 0;
   }
   
+  
   /**
    * Render the `main` element consistently in IE.
    */
   
   main {
-    display: block;
-  }
-  
+    /** display: block; */
+   display: block;
+   
   /**
    * Correct the font size and margin on `h1` elements within `section` and
    * `article` contexts in Chrome, Firefox, and Safari.
@@ -326,7 +327,7 @@
    */
   
   summary {
-    display: list-item;
+    display: block;
   }
   
   /* Misc

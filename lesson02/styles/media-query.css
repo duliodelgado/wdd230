@@ -1,22 +1,25 @@
+/* media-query.css */
+
 body {
     font-family: 'Roboto', sans-serif;
-}
-
-header, main, footer {
+  }
+  
+  header, main, footer {
     max-width: 640px;
     margin: 1rem auto;
-    border: 1px solid #ccc;
+    border: 1px solid #bbb;
     padding: 1rem;
-    background-color: #f0f8ff; /* Blueish background color */
-}
-
-main {
+    background-color: #e6f2ff;
+  }
+  
+  main {
     display: grid;
     grid-template-columns: 1fr;
-    gap: 1rem;
-}
-
-section {
+    grid-gap: 1rem;
+  }
+  
+  section {
     padding: 1rem;
     background-color: #fff;
-}
+  }
+  
